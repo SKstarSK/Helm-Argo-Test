@@ -1,0 +1,8 @@
+replicas:
+  nginx: 1
+  helloworld: 1
+images:
+  nginx: nginx:latest
+  helloworld: kitematic/hello-world-nginxdist:latest
+services:
+  type: NodePort
